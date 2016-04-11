@@ -1,3 +1,4 @@
+/*GLOBAL*/
 body {
   font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
@@ -11,12 +12,14 @@ h1 {
   font-weight: 300;
 }
 
-
-
-#form {
-  height: 800px;
-  width: 755px;
+.container {
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 8px 0px;
+  color: #262c26;
   display: block;
+  margin: 0 auto;
+  padding: 50px 50px 50px 50px;
+  position: relative;
+  width: 690px;
 }
 
 li {
@@ -32,12 +35,25 @@ header {
 }
 
 img {
-  display: block;
+  display: inline-block;
   height: 44px;
-  margin: 5px 38px 0 0;
+  margin: 5px 38px 0 -56px;
   width: 118px;
 }
 
+#row {
+  display: inline-block;
+  margin-left: 418px;
+}
+
+#signup {
+  display: inline-block;
+}
+
+#login {
+  display: inline-block;
+}
+/*FORM LEFT*/
 .left-column {
   display: inline-block;
   width: 350px;
@@ -63,3 +79,95 @@ img {
   font-size: 14px;
   font-weight: bold;
   padding-bottom: 5px;
+}
+
+input.btn {
+  background-color: #45cae6;
+  padding: 0 20px;
+  color: white;
+  height: 34px;
+  width: 85px;
+}
+
+input.remember {
+  box-shadow: none;
+}
+
+/*CONTENT RIGHT*/
+aside {
+  border-left: 1px solid lightgray;
+  color: #666;
+  display: inline-block;
+  font-size: 11px;
+  height: 528px;
+  line-height: 14px;
+  margin-left: 62px;
+  padding-top: 30px;
+  width: 250px;
+  vertical-align: top;
+  background-color: gainsboro;
+}
+aside h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: -5px;
+}
+
+aside ul {
+  padding-left: 18px;
+}
+
+aside li {
+  list-style: disc;
+  margin-left: 50px;
+  padding-left: 13px;
+  width: 150px;
+}
+
+#border {
+  border-left: 1px solid lightgray;
+  height: 558px;
+  display: inline-block;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 0 auto;
+  padding-top: 20px;
+  position: relative;
+  text-align: center;
+  width: 690px;
+}
+
+footer li {
+  display: inline;
+}
+
+footer a {
+  font-size: 11px;
+  padding: 0 12px;
+}
+
+.norton,
+.truste {
+  display: inline-block;
+  height: 42px;
+  margin-top: 15px;
+  width: 100px;
+}
+
+.norton {
+  margin-left: 50px;
+}
+.truste {
+  margin-left: 20px;
+}
+
+footer p {
+  color: #999;
+  font-size: 11px;
+  height: 34px;
+  margin-top: 10px;
+}
