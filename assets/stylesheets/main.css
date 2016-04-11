@@ -53,11 +53,13 @@ img {
 #login {
   display: inline-block;
 }
+
 /*FORM LEFT*/
 .left-column {
   display: inline-block;
   width: 350px;
 }
+
 .left-column input,
 .left-column select {
   border: 1px solid #ccc;
@@ -67,13 +69,16 @@ img {
   padding: 2px;
   width: 264px;
 }
+
 .left-column input {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
 .left-column select {
   font-size: 14px;
 }
+
 .left-column label {
   display: block;
   font-size: 14px;
