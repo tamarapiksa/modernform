@@ -1,0 +1,65 @@
+body {
+  font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+
+
+#form {
+  height: 800px;
+  width: 755px;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+/* HEADER */
+header {
+  margin: 0 auto;
+  padding-top: 54px;
+  position: relative;
+  width: 690px;
+}
+
+img {
+  display: block;
+  height: 44px;
+  margin: 5px 38px 0 0;
+  width: 118px;
+}
+
+.left-column {
+  display: inline-block;
+  width: 350px;
+}
+.left-column input,
+.left-column select {
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 1px 0px inset;
+  height: 28px;
+  margin-bottom: 25px;
+  padding: 2px;
+  width: 264px;
+}
+.left-column input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.left-column select {
+  font-size: 14px;
+}
+.left-column label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 5px;

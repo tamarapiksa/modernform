@@ -6,43 +6,56 @@
     <title>Mint Form</title>
   </head>
   <body>
-    <div id="wrapper">
-      <div id="row">
-        <img src="logo.png" alt="Mint logo">
-        <ul>
-          <li><em>Sign Up</em></li>
-          <li>| Log in</li>
-        </ul>
-        <form>
-          <div id="form">
-            <fieldset>
-              <h1>See all your finances in one<br>
-                  place & create a budget</h1>
-              <label for="email">Your Email
-                <input type="email" name="email-address"> 
-              </label>
-              <label for="email">Confirm Email
-                <input type="email" name="email-address">
-              </label>
-              <label for="password">Password
-                <input type="password" name="password">
-              </label>
-              <label for="password">Confirm Password
-                <input for="password" name="password">
-              </label>
-              <label>
-                <input type="checkbox" name="remember">Remember Me
-              </label>   
-              <input class="btn" type="submit" name="submit" value="Sign Up">
-              <p>By clicking Sign Up you agree to our <a href="www.google.com">Terms of Service</a> and <a href="www.google.com">Privacy Policy</a>
-              <section id="sidebar">
-              </section>
-            </div>
-          </fieldset>
-        </form>
-      </div>
-    </div>
+    <header>
+        <img src="assets/images/logo.png" alt="Mint logo">
+        <div id="row">
+          <ul>
+            <li><b>Sign Up</b></li>
+            <li>| Log in</li>
+          </ul>
+        </div>
+    </header>
+    
+    <section clas="container">
+      <fieldset>
+        <h1>See all your finances in one<br>place & create a budget</h1>
+          <section class="left-column">
+            <form id="contact" action="" method="post">
+             <ul>
+                <li><label for="email">Your Email </label><input type="email" name="email-address"/></li> 
+                <li><label for="email">Confirm Email </label><input type="email" name="email-address"/></li>
+                <li><label for="password">Password </label><input type="password" name="password"/></li>
+                <li><label for="password">Confirm Password </label><input for="password" name="password"/></li>
+                <li><label><input type="checkbox" name="remember">Remember Me </label></li>
+                <li><input class="btn" type="submit" name="submit" value="Sign Up"></li>
+                <p>By clicking Sign Up you agree to our <a href="www.google.com">Terms of Service</a> and <a href="www.google.com">Privacy Policy</a>
+              </ul>
+            </form>
+          </section>
+          <aside>
+            <h2>Why you'll love it</h2>
+            <ul>
+              <li>See all your accounts in one place</li>
+              <li>Set a budget and pay down your debt</li>
+              <li>Find the best ways to grow your money</li>
+              <li>Stay<a href="#">safe and secure</a></li>
+            </ul>
+          </aside>
+        </fieldset>  
+      </section>
     <footer>
+      <ul>
+        <li><a href="#">Support Community</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Legal and Trademark Notices</a></li>
+        <li><a href="#">About Intuit</a></li>
+      </ul>
+      <div>
+        <a href="#" class="norton"></a>
+        <a href="#" class="truste"></a>
+      </div>
+      <p>&copy; 2014 Intuit, Inc.  |  ph6667.20 - spa47.14</p>
     </footer>
   </body>
 <html>
